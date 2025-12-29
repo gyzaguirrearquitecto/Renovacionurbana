@@ -1,0 +1,374 @@
+{
+  "id": "LEY_29415_MVP",
+  "nombre": "Ley N° 29415 — Saneamiento Físico Legal de Predios Tugurizados con fines de Renovación Urbana (MVP)",
+  "version": "mvp-2025-12-28",
+  "fuente_url": "REEMPLAZAR: enlace oficial (El Peruano / MVCS) a Ley 29415 y su Reglamento (DS 011-2010-VIVIENDA)",
+  "fecha_vigencia": "Publicada 2009-10-02 (El Peruano) — verificar vigencia/actualizaciones",
+  "estructura": [
+    {
+      "id": "L29415_T1",
+      "tipo": "titulo",
+      "numero": "I",
+      "nombre": "Disposiciones generales",
+      "texto_resumen": "Define objeto, ámbito, fines, entidades intervinientes y lineamientos generales. Base para estructurar roles, responsabilidades y el flujo del procedimiento.",
+      "source_url": "REEMPLAZAR: enlace oficial a Título I",
+      "children": [
+        {
+          "id": "L29415_T1_C3",
+          "tipo": "capitulo",
+          "numero": "III",
+          "nombre": "Aspectos generales (saneamiento legal)",
+          "texto_resumen": "Incluye saneamiento legal, empadronamiento y calificación, procedimientos y costos/gastos vinculados.",
+          "source_url": "REEMPLAZAR: enlace oficial a Capítulo III",
+          "children": [
+            {
+              "id": "L29415_A7",
+              "tipo": "articulo",
+              "numero": "7",
+              "nombre": "Saneamiento legal",
+              "texto_resumen": "Concepto operativo: regularización/legalización de la situación jurídica del predio tugurizado para habilitar la renovación urbana.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 7",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A8",
+              "tipo": "articulo",
+              "numero": "8",
+              "nombre": "Empadronamiento y calificación",
+              "texto_resumen": "Levantamiento de información de ocupantes/posesionarios y calificación según criterios del procedimiento, para definir quiénes son poseedores calificados.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 8",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A9",
+              "tipo": "articulo",
+              "numero": "9",
+              "nombre": "Procedimientos de saneamiento legal",
+              "texto_resumen": "Define/ordena rutas de saneamiento legal aplicables en el marco de la Ley 29415 (p. ej. abandono, prescripción administrativa, transferencia a poseedores calificados, etc.).",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 9",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A10",
+              "tipo": "articulo",
+              "numero": "10",
+              "nombre": "Gastos de aplicación de la norma",
+              "texto_resumen": "Criterios generales de costos/gastos y su tratamiento en el procedimiento (p. ej. peritajes, publicaciones, tasas u otros).",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 10",
+              "children": [],
+              "requisitos": []
+            }
+          ],
+          "requisitos": []
+        },
+        {
+          "id": "L29415_T1_C4",
+          "tipo": "capitulo",
+          "numero": "IV",
+          "nombre": "Declaración administrativa de abandono",
+          "texto_resumen": "Regula cómo se comprueba el abandono (peritaje), cómo se compensa a propietarios, el procedimiento, sus efectos y la obligación municipal de transferir a poseedores calificados.",
+          "source_url": "REEMPLAZAR: enlace oficial a Capítulo IV",
+          "children": [
+            {
+              "id": "L29415_A12",
+              "tipo": "articulo",
+              "numero": "12",
+              "nombre": "Comprobación del abandono mediante peritaje técnico",
+              "texto_resumen": "Exige/describe el peritaje técnico como medio para comprobar el abandono en el marco del procedimiento.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 12",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A13",
+              "tipo": "articulo",
+              "numero": "13",
+              "nombre": "Compensación a los propietarios",
+              "texto_resumen": "Parámetros operativos de compensación al propietario como consecuencia de la declaración de abandono.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 13",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A15",
+              "tipo": "articulo",
+              "numero": "15",
+              "nombre": "Procedimiento para la declaración de abandono",
+              "texto_resumen": "Etapas y actos administrativos para declarar el abandono; define qué debe sustentar la municipalidad y el administrado.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 15",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A18",
+              "tipo": "articulo",
+              "numero": "18",
+              "nombre": "Obligación municipal de transferir a poseedores calificados",
+              "texto_resumen": "Establece obligación de la municipalidad provincial de transferir/adjudicar a poseedores calificados bajo condiciones del procedimiento.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 18",
+              "children": [],
+              "requisitos": []
+            }
+          ],
+          "requisitos": []
+        }
+      ],
+      "requisitos": []
+    },
+    {
+      "id": "L29415_T2",
+      "tipo": "titulo",
+      "numero": "II",
+      "nombre": "Proceso de saneamiento físico de la propiedad tugurizada",
+      "texto_resumen": "Incluye saneamiento físico, estado de tugurización, programas/proyectos de renovación urbana, modos de intervención legal y lineamientos de financiamiento/participación.",
+      "source_url": "REEMPLAZAR: enlace oficial a Título II",
+      "children": [
+        {
+          "id": "L29415_T2_C2",
+          "tipo": "capitulo",
+          "numero": "II",
+          "nombre": "Programa de renovación urbana de predios tugurizados",
+          "texto_resumen": "Define programas/proyectos, aprobación, sanciones por incumplimiento y vínculos con ejecución de renovación urbana.",
+          "source_url": "REEMPLAZAR: enlace oficial a Capítulo II",
+          "children": [
+            {
+              "id": "L29415_A26",
+              "tipo": "articulo",
+              "numero": "26",
+              "nombre": "Programas de renovación urbana de predios tugurizados",
+              "texto_resumen": "Marco operativo para estructurar un programa/proyecto de renovación urbana sobre predios tugurizados.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 26",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A27",
+              "tipo": "articulo",
+              "numero": "27",
+              "nombre": "Aprobación del proyecto",
+              "texto_resumen": "Actos y autoridades para aprobar el proyecto de renovación urbana (según corresponda por nivel municipal y normas aplicables).",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 27",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A30",
+              "tipo": "articulo",
+              "numero": "30",
+              "nombre": "Modos de intervención legal",
+              "texto_resumen": "Formas de intervención legal para ejecutar programas/proyectos de renovación urbana en predios tugurizados.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 30",
+              "children": [],
+              "requisitos": []
+            },
+            {
+              "id": "L29415_A31",
+              "tipo": "articulo",
+              "numero": "31",
+              "nombre": "Agente financiero",
+              "texto_resumen": "Rol del agente financiero en el diseño/ejecución del esquema financiero del proyecto de renovación urbana.",
+              "source_url": "REEMPLAZAR: enlace oficial al Art. 31",
+              "children": [],
+              "requisitos": []
+            }
+          ],
+          "requisitos": []
+        },
+        {
+          "id": "L29415_MVP_REQS",
+          "tipo": "anexo",
+          "numero": "MVP",
+          "nombre": "Plantilla de requisitos operativos (DEMO — Renovación Urbana)",
+          "texto_resumen": "Este bloque contiene requisitos de ejemplo (6–10) para probar checklist y exportación. Reemplázalos por los requisitos reales de tu ley/reglamento/anexos.",
+          "source_url": "REEMPLAZAR: enlace oficial (si aplica)",
+          "children": [],
+          "requisitos": [
+            {
+              "id": "RU_REQ_001",
+              "nombre": "Solicitud de inicio del procedimiento",
+              "descripcion": "Presentación de solicitud (datos del predio, administrado, ruta legal) para activar el trámite municipal vinculado a Ley 29415.",
+              "obligatorio": true,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "propietario/administrado",
+              "entradas": [
+                {"key": "solicitante", "label": "Solicitante", "type": "text", "options": [], "required": true},
+                {"key": "dni_ruc", "label": "DNI/RUC", "type": "text", "options": [], "required": false},
+                {"key": "ruta", "label": "Ruta legal", "type": "select", "options": ["Abandono", "Prescripción administrativa", "Programa/Proyecto RU"], "required": true}
+              ],
+              "evidencias": [
+                {"nombre": "Solicitud firmada", "formato": "pdf/jpg", "descripcion": "Archivo escaneado o PDF firmado."}
+              ],
+              "plazo_estimado_dias": 1,
+              "costo_estimado": "Según TUPA municipal",
+              "base_legal_ref": "L29415_A9"
+            },
+            {
+              "id": "RU_REQ_002",
+              "nombre": "Empadronamiento de ocupantes",
+              "descripcion": "Levantamiento/registro de ocupantes y unidades (identificación, tiempo de posesión, condiciones).",
+              "obligatorio": true,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "municipalidad",
+              "entradas": [
+                {"key": "fecha_emp", "label": "Fecha de empadronamiento", "type": "date", "options": [], "required": false},
+                {"key": "n_ocupantes", "label": "N° de ocupantes", "type": "number", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Acta/ficha de empadronamiento", "formato": "pdf/jpg", "descripcion": "Ficha/acta con firmas."}
+              ],
+              "plazo_estimado_dias": 7,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A8"
+            },
+            {
+              "id": "RU_REQ_003",
+              "nombre": "Calificación de poseedores",
+              "descripcion": "Determinación de poseedores calificados (criterios del procedimiento y verificación documental).",
+              "obligatorio": true,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "municipalidad",
+              "entradas": [
+                {"key": "criterios", "label": "Criterios aplicados", "type": "text", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Informe de calificación", "formato": "pdf", "descripcion": "Informe/acta de calificación."}
+              ],
+              "plazo_estimado_dias": 10,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A8"
+            },
+            {
+              "id": "RU_REQ_004",
+              "nombre": "Plano de ubicación y perimétrico (catastro)",
+              "descripcion": "Plano de ubicación/localización y plano perimétrico referenciado (catastro/entorno) para sustentar la intervención.",
+              "obligatorio": true,
+              "entidad": "Catastro / Municipalidad Provincial",
+              "responsable_tipo": "arquitecto",
+              "entradas": [
+                {"key": "escala", "label": "Escala", "type": "select", "options": ["1/500", "1/1000", "1/2000"], "required": true}
+              ],
+              "evidencias": [
+                {"nombre": "Plano (PDF)", "formato": "pdf", "descripcion": "Plano firmado."},
+                {"nombre": "Plano (DWG)", "formato": "dwg", "descripcion": "Fuente editable (opcional)."}
+              ],
+              "plazo_estimado_dias": 5,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A23"
+            },
+            {
+              "id": "RU_REQ_005",
+              "nombre": "Peritaje técnico (abandono / estado físico)",
+              "descripcion": "Peritaje técnico para comprobar abandono/condiciones (según ruta aplicable).",
+              "obligatorio": false,
+              "entidad": "Registro/Perito técnico / Municipalidad",
+              "responsable_tipo": "tercero",
+              "entradas": [
+                {"key": "perito", "label": "Perito", "type": "text", "options": [], "required": false},
+                {"key": "fecha", "label": "Fecha de informe", "type": "date", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Informe de peritaje", "formato": "pdf", "descripcion": "Informe firmado por perito."}
+              ],
+              "plazo_estimado_dias": 10,
+              "costo_estimado": "Variable (según peritaje)",
+              "base_legal_ref": "L29415_A12"
+            },
+            {
+              "id": "RU_REQ_006",
+              "nombre": "Compensación al propietario (si corresponde)",
+              "descripcion": "Registro de evaluación/compensación al propietario derivada de la declaratoria de abandono u otra ruta.",
+              "obligatorio": false,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "municipalidad",
+              "entradas": [
+                {"key": "monto", "label": "Monto (S/)", "type": "number", "options": [], "required": false},
+                {"key": "medio_pago", "label": "Medio de pago", "type": "text", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Constancia/acto de compensación", "formato": "pdf/jpg", "descripcion": "Resolución/constancia/voucher."}
+              ],
+              "plazo_estimado_dias": 15,
+              "costo_estimado": "Según tasación/acto",
+              "base_legal_ref": "L29415_A13"
+            },
+            {
+              "id": "RU_REQ_007",
+              "nombre": "Resolución de declaratoria de abandono",
+              "descripcion": "Acto administrativo final que declara el abandono y habilita efectos posteriores (transferencia/adjudicación).",
+              "obligatorio": false,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "municipalidad",
+              "entradas": [
+                {"key": "n_res", "label": "N° de resolución", "type": "text", "options": [], "required": false},
+                {"key": "fecha", "label": "Fecha", "type": "date", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Resolución", "formato": "pdf", "descripcion": "Copia de la resolución."}
+              ],
+              "plazo_estimado_dias": 30,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A15"
+            },
+            {
+              "id": "RU_REQ_008",
+              "nombre": "Adjudicación/transferencia a poseedores calificados",
+              "descripcion": "Acto de transferencia/adjudicación a poseedores calificados, según condiciones del procedimiento.",
+              "obligatorio": false,
+              "entidad": "Municipalidad Provincial",
+              "responsable_tipo": "municipalidad",
+              "entradas": [
+                {"key": "n_acto", "label": "N° de acto/acto administrativo", "type": "text", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Acto de adjudicación", "formato": "pdf", "descripcion": "Documento del acto de transferencia."}
+              ],
+              "plazo_estimado_dias": 30,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A18"
+            },
+            {
+              "id": "RU_REQ_009",
+              "nombre": "Proyecto de Renovación Urbana (contenido mínimo)",
+              "descripcion": "Documento del proyecto/programa de renovación urbana (objetivos, alcance, propuesta urbana/arquitectónica, cronograma, etc.).",
+              "obligatorio": false,
+              "entidad": "Municipalidad Provincial / MVCS (según corresponda)",
+              "responsable_tipo": "arquitecto",
+              "entradas": [
+                {"key": "nombre_proy", "label": "Nombre del proyecto", "type": "text", "options": [], "required": false},
+                {"key": "alcance", "label": "Alcance", "type": "text", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Memoria/propuesta", "formato": "pdf", "descripcion": "Documento del proyecto."}
+              ],
+              "plazo_estimado_dias": 20,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A26"
+            },
+            {
+              "id": "RU_REQ_010",
+              "nombre": "Estructura financiera y agente financiero",
+              "descripcion": "Definición del esquema financiero, identificación de agente financiero y soporte para la ejecución del proyecto.",
+              "obligatorio": false,
+              "entidad": "Agente financiero / Municipalidad",
+              "responsable_tipo": "tercero",
+              "entradas": [
+                {"key": "agente", "label": "Agente financiero", "type": "text", "options": [], "required": false},
+                {"key": "modelo", "label": "Modelo de financiamiento", "type": "text", "options": [], "required": false}
+              ],
+              "evidencias": [
+                {"nombre": "Carta/contrato / esquema", "formato": "pdf", "descripcion": "Documento sustentatorio."}
+              ],
+              "plazo_estimado_dias": 15,
+              "costo_estimado": "—",
+              "base_legal_ref": "L29415_A31"
+            }
+          ]
+        }
+      ],
+      "requisitos": []
+    }
+  ]
+}
