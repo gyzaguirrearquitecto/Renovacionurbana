@@ -1,0 +1,234 @@
+{
+  "wizard": {
+    "default_modality": "RU_PROGRAMA",
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Ruta principal del procedimiento (Ley 29415)",
+        "type": "select",
+        "options": [
+          {
+            "value": "programa",
+            "label": "Programa/Proyecto de Renovación Urbana"
+          },
+          {
+            "value": "abandono",
+            "label": "Declaración administrativa de abandono"
+          },
+          {
+            "value": "prescripcion",
+            "label": "Prescripción adquisitiva administrativa"
+          }
+        ],
+        "help": "Configurable en data/rules.sample.json. Ajusta preguntas y reglas según tu ley."
+      },
+      {
+        "id": "Q2",
+        "text": "¿El predio está calificado como tugurizado?",
+        "type": "boolean"
+      },
+      {
+        "id": "Q3",
+        "text": "¿Ocupantes empadronados y calificados como poseedores?",
+        "type": "boolean"
+      },
+      {
+        "id": "Q4",
+        "text": "¿Existe propietario registral identificado?",
+        "type": "boolean"
+      },
+      {
+        "id": "Q5",
+        "text": "¿Se cuenta con peritaje/informe técnico (o se solicitará)?",
+        "type": "boolean"
+      },
+      {
+        "id": "Q6",
+        "text": "Área aproximada del predio (m²)",
+        "type": "number",
+        "min": 0,
+        "max": 200000,
+        "placeholder": "Ej. 350"
+      },
+      {
+        "id": "Q7",
+        "text": "¿Se requiere compensación al propietario?",
+        "type": "boolean"
+      },
+      {
+        "id": "Q8",
+        "text": "¿Existe controversia que podría requerir arbitraje?",
+        "type": "boolean"
+      }
+    ],
+    "decisions": [
+      {
+        "when": [
+          {
+            "q": "Q1",
+            "op": "eq",
+            "v": "abandono"
+          },
+          {
+            "q": "Q5",
+            "op": "truthy",
+            "v": true
+          }
+        ],
+        "result_modality": "RU_ABANDONO"
+      },
+      {
+        "when": [
+          {
+            "q": "Q1",
+            "op": "eq",
+            "v": "prescripcion"
+          },
+          {
+            "q": "Q3",
+            "op": "truthy",
+            "v": true
+          }
+        ],
+        "result_modality": "RU_PRESCRIPCION"
+      },
+      {
+        "when": [
+          {
+            "q": "Q1",
+            "op": "eq",
+            "v": "programa"
+          },
+          {
+            "q": "Q2",
+            "op": "truthy",
+            "v": true
+          }
+        ],
+        "result_modality": "RU_PROGRAMA"
+      },
+      {
+        "when": [
+          {
+            "q": "Q1",
+            "op": "eq",
+            "v": "programa"
+          },
+          {
+            "q": "Q2",
+            "op": "falsy",
+            "v": false
+          }
+        ],
+        "result_modality": "RU_PRECALIFICACION"
+      }
+    ]
+  },
+  "modalities": {
+    "RU_PRECALIFICACION": {
+      "id": "RU_PRECALIFICACION",
+      "nombre": "Precalificación (diagnóstico / tugurización)",
+      "descripcion": "Ruta mínima cuando aún falta calificar tugurización o completar insumos básicos.",
+      "applicable_requirement_ids": [
+        "RU_REQ_001",
+        "RU_REQ_008",
+        "RU_REQ_002"
+      ]
+    },
+    "RU_ABANDONO": {
+      "id": "RU_ABANDONO",
+      "nombre": "Declaración administrativa de abandono",
+      "descripcion": "Ruta orientada a la declaración administrativa de abandono, peritaje, compensación y transferencia conforme a Ley 29415.",
+      "applicable_requirement_ids": [
+        "RU_REQ_001",
+        "RU_REQ_008",
+        "RU_REQ_002",
+        "RU_REQ_003",
+        "RU_REQ_004",
+        "RU_REQ_005",
+        "RU_REQ_006",
+        "RU_REQ_010"
+      ]
+    },
+    "RU_PRESCRIPCION": {
+      "id": "RU_PRESCRIPCION",
+      "nombre": "Prescripción adquisitiva administrativa",
+      "descripcion": "Ruta para consolidación de derecho vía prescripción adquisitiva administrativa (administrativa).",
+      "applicable_requirement_ids": [
+        "RU_REQ_001",
+        "RU_REQ_008",
+        "RU_REQ_002",
+        "RU_REQ_003",
+        "RU_REQ_007",
+        "RU_REQ_006"
+      ]
+    },
+    "RU_PROGRAMA": {
+      "id": "RU_PROGRAMA",
+      "nombre": "Programa/Proyecto de Renovación Urbana",
+      "descripcion": "Ruta para estructurar un programa/proyecto de Renovación Urbana sobre predio tugurizado (incluye proyecto y financiamiento).",
+      "applicable_requirement_ids": [
+        "RU_REQ_001",
+        "RU_REQ_008",
+        "RU_REQ_002",
+        "RU_REQ_003",
+        "RU_REQ_009",
+        "RU_REQ_010"
+      ]
+    }
+  },
+  "stage_templates": [
+    {
+      "id": "STG_1",
+      "nombre": "Etapa 1 — Inicio del procedimiento",
+      "descripcion": "Solicitud/acto de inicio y datos base.",
+      "requirement_ids": [
+        "RU_REQ_001"
+      ]
+    },
+    {
+      "id": "STG_2",
+      "nombre": "Etapa 2 — Catastro y soporte documental",
+      "descripcion": "Planos y sustento de identificación física.",
+      "requirement_ids": [
+        "RU_REQ_008"
+      ]
+    },
+    {
+      "id": "STG_3",
+      "nombre": "Etapa 3 — Empadronamiento y calificación",
+      "descripcion": "Empadronamiento y calificación de ocupantes/poseedores.",
+      "requirement_ids": [
+        "RU_REQ_002",
+        "RU_REQ_003"
+      ]
+    },
+    {
+      "id": "STG_4",
+      "nombre": "Etapa 4 — Peritaje y declaratorias",
+      "descripcion": "Peritaje técnico y declaratoria administrativa (cuando corresponda).",
+      "requirement_ids": [
+        "RU_REQ_004",
+        "RU_REQ_005"
+      ]
+    },
+    {
+      "id": "STG_5",
+      "nombre": "Etapa 5 — Adjudicación/transferencia",
+      "descripcion": "Resoluciones y efectos jurídicos para adjudicar o transferir.",
+      "requirement_ids": [
+        "RU_REQ_006",
+        "RU_REQ_007"
+      ]
+    },
+    {
+      "id": "STG_6",
+      "nombre": "Etapa 6 — Proyecto RU y financiamiento",
+      "descripcion": "Formulación del proyecto RU, agente financiero y condiciones de ejecución.",
+      "requirement_ids": [
+        "RU_REQ_009",
+        "RU_REQ_010"
+      ]
+    }
+  ]
+}
